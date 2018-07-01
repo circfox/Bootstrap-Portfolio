@@ -20,4 +20,8 @@
     transition-delay: all 0.2s ease-in-out;
     max-width: 100%;
     height: auto;
+    
+.container {
+    height: 100%;
+    
 }
