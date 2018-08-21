@@ -34,3 +34,8 @@ html {
     height: auto;
     padding: 10px;
 }
+#link-text {
+    font-weight: bold;
+    font-size: 20px;
+
+}
