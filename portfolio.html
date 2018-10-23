@@ -20,7 +20,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="#">Ray Ventura</a>
+        <a class="navbar-brand" href="#">Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,82 +33,146 @@
                     <span class="sr-only">(current)</span>
                 </a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="contact.html">Contact
                     <span class="sr-only">(current)</span>
                 </a>
+            </li> -->
+            <!-- CONTACT LINK UPDATES -->
+            <li class="nav-item">
+                <button class="btn btn-link pull-right" data-target="#contactModal" data-toggle="modal" style="color: white">Contact</button>
             </li>
 
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="modal fade" data-keyboard="false" data-backdrop="static" id="contactModal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" modal-lg role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">CONTACT</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="col-12">
+                                            <!-- ++++++++++++++++++++++++++++++++++++++++ -->
+                                            <div class="container">
+
+                                                <br>
+                                                <div class="row">
+
+                                                    <!-- Sign-Up Card-->
+                                                    <div class="col-lg-12">
+                                                        <div class="card card-default">
+                                                            <div class="card-heading">
+                                                                <!-- <h3 class="card-title">New Member Sign-Up</h3> -->
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="col-12">
+
+                                                                    <!-- Sign-up Form (note the various input "types")-->
+                                                                    <form role="form">
+                                                                        <div class="form-group">
+                                                                            <label for="name-input">Name:</label>
+                                                                            <textarea type="text" class="form-control" id="nameInput" cols="80" rows="1" placeholder="name"></textarea>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="email-input">Email Address:</label>
+                                                                            <textarea type="text" class="form-control" id="emailInput" cols="80" rows="1" placeholder="email"></textarea>
+                                                                        </div>
+                                                                        <div class="form-group">
+                                                                            <label for="comment-input">Message</label>
+                                                                            <textarea class="form-control" id="comment-input" rows="7"></textarea>
+                                                                        </div>
+                                                                        <!-- <button class="btn btn-primary" id="add-user" type="submit">Submit</button> -->
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <br>
+                                                <!-- ++++++++++++++++++++++++++++++++++++++++ -->
+                                                <button type="submit" id="newSubmit" class="btn btn-primary float-right">Submit</button>
+                                                </form>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li> -->
         </ul>
 
         </div>
     </nav>
-    <br>
-    <br>
 
+    <!-- </nav>
+<div class="card" style="width: 10 rem;">
+    <div class="card-body">
+        <h4 class="card-title">Portfolio</h4>
+    </div>
+</div> -->
+    <br>
     <div class="container">
 
         <div class="row">
 
             <div class="col-sm-6">
+                <h2>HW-Wireframe</h2>
+                <p>This is an implementation of the basic knowledge and understanding of HTML, CSS, and positioning.</p>
+                <br>
+                <br>
                 <img src="assets/images/wireframe.jpg" alt="wireframe" width="400" height="300" class="img-thumbnail" class="img-fluid">
                 <br>
                 <a href=https://circfox.github.io/circfox_HW-Wireframe/>Wireframe</a>
             </div>
             <div class="col-sm-6">
-                <h2>HW-Wireframe</h2>
-                <p>This is an implementation of the basic knowledge and understanding of HTML, CSS, and positioning.</p>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-
-            <div class="col-sm-6">
+                <h2>Crystals Collector Game</h2>
+                <p>The user matches a randomly generated number by clicking on the crystals which are assigned with random hidden
+                    values at the start of the game.</p>
                 <img src="assets/images/ccg.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
                 <br>
                 <a class="link-text" href=https://circfox.github.io/unit-4-game>CrystalsCollector Game</a>
             </div>
-            <div class="col-sm-6">
-                <h2>Crystals Collector Game</h2>
-                <p>In this game, the user matches a randomly generated number by clicking on the crystal which are assigned
-                    with random hidden values at the start of the game.</p>
-            </div>
         </div>
         <br>
-        <br>
+
         <div class="row">
 
-            <div class="col-sm-6">
-                <img src="assets/images/tg.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
-                <br>
-                <a href=https://circfox.github.io/TriviaGame/>Trivia Game</a>
-            </div>
             <div class="col-sm-6">
                 <h2>Trivia Game</h2>
                 <p>In this basic trivia game, a timer was created using JQuery to limit the time needed by the user to answer
                     a series of questions.</p>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="row">
-
-            <div class="col-sm-6">
-                <img src="assets/images/gif.gif" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
+                <img src="assets/images/tg.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
                 <br>
-                <a href=https://circfox.github.io/Giftastic/>Giftastic</a>
+                <a href=https://circfox.github.io/TriviaGame/>Trivia Game</a>
             </div>
             <div class="col-sm-6">
                 <h2>Giftastic</h2>
                 <p>This uses AJAX to make an API call and makes a dynamic web page that populates with selected gifs. JQuery
                     and JavaScript were used to change the HTML of the page. Each gif can be toggled to animate or still
                     by clicking on the gif.</p>
+                <img src="assets/images/gif.gif" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
+                <br>
+                <a href=https://circfox.github.io/Giftastic/>Giftastic</a>
+            </div>
+            <div class="col-sm-6">
             </div>
         </div>
         <br>
@@ -116,32 +180,54 @@
         <div class="row">
 
             <div class="col-sm-6">
+                <h2>Train-Scheduler</h2>
+                <p>In this app a train schedule application that incorporates Firebase to host the arrival and departure data.
+                    Moment.js was used to retrieve and manipulate the information. </p>
                 <img src="assets/images/ts.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
                 <br>
                 <a href=https://circfox.github.io/Train-Scheduler/>Train Scheduler</a>
             </div>
-            <div class="col-sm-6">
-                <h2>Train-Scheduler</h2>
-                <p>In this app a train schedule application that incorporates Firebase to host the arrival and departure data.
-                    Moment.js was used to retrieve and manipulate the information. This website provides up-to-date information
-                    about the fastest bullet trains about their arrival times. </p>
-            </div>
         </div>
         <br>
         <br>
         <div class="row">
 
             <div class="col-sm-6">
+                <h2>liri-node-app</h2>
+                <a href=https://github.com/circfox/liri-node-app/></a>
+                <p> </p>
+            </div>
+            <div class="col-sm-6">
+                <h2>Bamazon</h2>
+                <br>
+                <a href=https://github.com/circfox/Bamazon/></a>
+                <p> </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-6">
+                <h2>Group Project 1</h2>
+                <p>This app calls on Walmart API to display a searched product. A video review for the same product was possible
+                    by calling the YouTube API. Firebase was also employed for the testimonial feature. </p>
                 <img src="assets/images/sdas.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
                 <br>
                 <a href=https://circfox.github.io/SuperDuperAmazingSpectacular/>Group Project1</a>
             </div>
             <div class="col-sm-6">
-                <h2>Group Project</h2>
-                <p>This app calls on Walmart API to display a searched product. A video review for the same product was possible
-                    by calling the YouTube API. Firebase was also employed for the testimonial feature. </p>
+                    <h2>Group Project 2</h2>
+                    <p>This app uses technologies like Node.js, Express, Handlebars, and Sequelize to create a project that uses the front and back end.  </p> 
+                    <img src="assets/images/sb.jpg" alt="SAR" width="400" height="300" class="img-thumbnail" class="img-fluid">
+                    <br>
+                    <a href=https://stouijaboard.herokuapp.com/>StouijiBoard</a>
+                <br>  
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+
     </div>
 
 
@@ -151,9 +237,19 @@
             </span>
         </iframe>
     </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++-->
+    <script>
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').trigger('focus')
+        })
+    </script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- ++++++++++++++++++++++++++++++++++++++++-->
     <nav class="navbar fixed-bottom navbar-primary bg-primary">
         <a class="navbar-brand" href="#">Fixed bottom</a>
     </nav>
+
 
     <body>
 
